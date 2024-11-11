@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #FFCC66;
+    padding: 20px;
+    background-color: #FFFAE1;
+}
+.container h2 {
+    text-align: center;
+    color: #3366FF;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+label {
+    width: 30%;
+}
+input[type="text"], select, textarea {
+    width: 65%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.checkbox-row {
+    display: flex;
+    align-items: center;
+}
+.checkbox-row input {
+    margin-right: 10px;
+}
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FF9900;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.success-message {
+    text-align: center;
+    color: red;
+    margin-top: 15px;
+}
